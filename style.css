@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(2, 2, 59);
+    color: aliceblue;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    background-color: rgb(19, 97, 165);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color:rgb(2, 2, 59); 
+}
+.nav__lista{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.nav__lista > li{
+    font-size: 18px;
+    list-style: none;
+    cursor: pointer;
+}
+.container{
+    height: 79vh;
+}
+.conteudocentral{
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+    gap: 10rem;
+}
+
+.principal__texto > h1 {
+    font-size: 45px;
+}
+.principal__texto > p{
+    font-size: 24px;
+}
+.princiapal__redes > h1 {
+    font-size: 38px;
+}
+.princiapal__redes{
+    margin-top: 8rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.redessociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+}
+.redessociais > p {
+    font-size: 24px;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 3px aqua solid;
+    cursor: pointer;
+}
+.redessociais > p:hover{
+
+    background: rgba(255, 255, 255, 0.123)
+}
+
+
+img{
+    width: 320px;
+    height: 500px;
+    border-radius: 2rem;
+}
+footer{
+    height: 50px;
+    background-color:rgb(19, 97, 165) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape{
+   font-size: 16px;
+}
